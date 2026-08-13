@@ -92,7 +92,7 @@ body::before{
 
     width:100%;
 
-    min-height:100vh;
+    height:calc(100vh - 60px);
 
     display:flex;
 
@@ -102,10 +102,11 @@ body::before{
 
     position:relative;
 
-    padding:60px 20px;
+    padding:60px 20px 20px;
 
     animation:pageEnter .7s ease forwards;
 
+}
 }
 
 
