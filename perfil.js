@@ -303,17 +303,17 @@ function crearCategoria(lista,contenedor,perfil,tipo){
 
             const obtenido =
 
-    item.id==="spiderman" ||
+                item.id==="spiderman" ||
 
-    item.id==="baifo_default" ||
+                item.id==="baifo_default" ||
 
-    item.id==="baifo_fondo_default" ||
+                item.id==="baifo_fondo_default" ||
 
-    item.id==="baifo_music_default" ||
+                item.id==="baifo_music_default" ||
 
-    (perfil.inventario && perfil.inventario.includes(item.id));
+                (perfil.inventario && perfil.inventario.includes(item.id));
 
-            const equipado=
+            const equipado =
 
                 perfil.equipado[tipo]===item.id;
 
@@ -337,7 +337,7 @@ function crearCategoria(lista,contenedor,perfil,tipo){
 
                 <button
 
-                    class="shop-button"
+                    class="shop-button ${equipado ? "is-equipped" : ""}"
 
                     ${!obtenido ? "disabled" : ""}
 
