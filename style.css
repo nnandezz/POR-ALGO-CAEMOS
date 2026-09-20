@@ -1189,7 +1189,13 @@ body.page-exit{
 
 .shop-section{
 
+    width:100%;
+
+    max-width:575px;
+
     margin-top:45px;
+
+}
 
 }
 
