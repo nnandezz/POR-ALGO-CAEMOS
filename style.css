@@ -1754,3 +1754,16 @@ body.profile-page .home-content{
     animation:pageEnter .6s ease forwards;
 
 }
+
+
+.shop-button.is-equipped{
+
+    background:#C1121F;
+
+}
+
+.shop-button.is-equipped:hover{
+
+    background:#E63946;
+
+}
