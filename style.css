@@ -1641,6 +1641,8 @@ body.page-exit{
 
     width:100%;
 
+    flex-shrink:0;
+
     text-align:center;
 
     padding:20px 20px 25px;
