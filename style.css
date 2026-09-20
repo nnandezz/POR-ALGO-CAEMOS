@@ -1481,7 +1481,10 @@ body.page-exit{
 
     width:100%;
 
+    max-width:575px;
+
     margin-top:60px;
+
 
 }
 
