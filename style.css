@@ -104,22 +104,16 @@ body{
 .home-content{
 
     width:100%;
-
     max-width:950px;
-
     text-align:center;
-
     display:flex;
-
     flex-direction:column;
-
     align-items:center;
-
     padding:40px;
-
-    transform:translateY(25px);
+    transform:translateY(100px);
 
 }
+
 .home-content h1{
 
     font-size:4rem;
