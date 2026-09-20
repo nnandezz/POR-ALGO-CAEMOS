@@ -1655,3 +1655,46 @@ body.page-exit{
     margin:0;
 
 }
+
+
+body.shop-page{
+
+    overflow-x:hidden;
+
+    overflow-y:auto;
+
+}
+
+body.shop-page #app{
+
+    height:auto;
+
+    min-height:100vh;
+
+    overflow:visible;
+
+}
+
+body.shop-page .home-container{
+
+    height:auto;
+
+    min-height:100vh;
+
+    justify-content:center;
+
+    align-items:flex-start;
+
+    padding:80px 300px 80px 20px;
+
+    animation:none;
+
+}
+
+body.shop-page .home-content{
+
+    transform:none;
+
+    animation:pageEnter .6s ease forwards;
+
+}
