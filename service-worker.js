@@ -18,7 +18,6 @@ const ARCHIVOS = [
     "./spiderflappy.css",
     "./spiderflappy.js",
     "./spiderflappy-manifest.json",
-    "./spiderflappy.png",
     "./spider-art.png",
     "./spidercaida.png",
     "./spidermedio.png",
